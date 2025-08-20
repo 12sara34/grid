@@ -20,6 +20,7 @@
             display: grid;
             grid-template-columns: 120.5px 65px 200px 130px 65px 65px 130px;
             grid-template-rows: 150px 150px 150px;
+            
 
         }
         .inner {
@@ -32,6 +33,8 @@
             align-items: center;
             gap: 10px;
             margin:8px ;
+           
+           
            
         }
 
@@ -258,6 +261,71 @@
             align-items: end;
 
         }
+        @media(max-width:995px) {
+        .inner{
+            grid-template-columns: 200px 200px 200px 200px 200px 200px 200px ;
+            grid-template-rows: 350px 350px 350px;
+          border-radius: 20px;
+          display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+    .a{
+        grid-area: 1/1/2/3;
+display: none;
+    }
+    .b{
+ grid-area: 1/6/2/8;
+ display: none;
+    }
+    .c{
+ grid-area: 1/1/2/8;
+ display: none;
+    }
+    .d{
+       
+ grid-area: 1/1/4/8;
+ display: none;
+    }
+    .e{
+ grid-area: 2/4/3/8;
+ display: none;
+    }
+    .f{
+        grid-area: 3/1/4/2;
+        display: none;
+    }
+    .g{
+         grid-area: 1/1/4/8;
+          background-image: url(ty.png);
+ background-size: cover;
+ 
+
+
+    }
+    .g h1{
+        display:none;
+            
+    }
+    .g h4{
+        display: none;
+    }
+   
+      .s{
+         grid-area: 4/1/5/4;
+       background: #c8c5c4 ;
+      
+
+      }
+      .sara{
+         grid-area: 4/4/4/8;
+
+background: #c8c5c4; 
+
+      }      
+        }
     </style>
 </head>
 
@@ -353,7 +421,7 @@
             </div>
             <div class="grid g">
                 <h1>Interesting Facts</h1>
-                <h4>"Kolkata Knight Riders crowned champions for the third time,having previously won in 2012, 2014"
+                <h4>"SRH has gone through periods of success and challenges, including some bottom-half finishes in recent seasons. "
                 </h4>
             </div>
             <div class="grid s">
